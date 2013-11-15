@@ -39,6 +39,7 @@
 
       &:last-child {
         margin-#{$direction}: 0;
+        width: flex-grid($columns, $container-columns);
       }
     }
   }

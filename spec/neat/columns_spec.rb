@@ -61,6 +61,12 @@ describe "@include span-columns()" do
     end
   end
 
+  context "with argument (block) after a (block-collpase)" do
+    it "adds width to the last element to override any cascading values" do
+      expect('.span-columns-block-after-collapse:last-child').to have_rule('width: 48.82117%')
+    end
+  end
+
   context "with argument (no-display)" do
     it "doesn't set display property" do
       expect('.span-columns-no-display').to_not have_rule('display: block')
