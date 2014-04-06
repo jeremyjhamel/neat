@@ -7,7 +7,7 @@
 
 Requirements
 ===
-- Sass 3.2+
+- Sass 3.3+
 - Bourbon 2.1+
 
 Install Instructions
